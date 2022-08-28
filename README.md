@@ -1,4 +1,4 @@
-# UniAssetPath
+# Kogane Asset Path
 
 アセットのパスに関する処理を記述しやすくする構造体
 
