@@ -20,6 +20,11 @@ namespace Kogane
             Path = assetPath;
         }
 
+        public AssetPath( GUID guid )
+            : this( AssetDatabase.GUIDToAssetPath( guid ) )
+        {
+        }
+
         public override string ToString()
         {
             return Path;
