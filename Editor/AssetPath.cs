@@ -37,7 +37,7 @@ namespace Kogane
 
         public static implicit operator AssetPath( string assetPath )
         {
-            return new AssetPath( assetPath );
+            return new( assetPath );
         }
     }
 }
